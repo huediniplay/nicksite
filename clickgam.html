@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>ClickCount</title>
+    </head>
+    <body>
+<button style= height:45px;width:300px>Clik Meh</button>
+<br>
+Clicks: <span id= 'count'>0</span>
+<script>
+    $button = document.querySelector('button');
+    $span = document.querySelector('span');
+    function increment(){
+        $span.innerHTML++;
+    }
+    $button.addEventListener('click', increment);
+
+        </script>
+        <br>
+        <hr>
+        <br>
+        <a href= home.html > <button style= height:35px;width:70px>back to home</button></a>
+    </body>
+</html>
